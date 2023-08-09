@@ -7,8 +7,10 @@ Create Caligram quickly with highly inspired script from:
 
 ## Quick install
 
+Install poetry <https://python-poetry.org/docs/#installation>
+
 ```sh
-pipenv install
+poetry install
 ```
 
 ## Usage

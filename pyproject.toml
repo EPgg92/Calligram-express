@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "caligram-express"
+version = "1.0.0"
+description = "This a quickly made script to create a caligram from an image and text file."
+authors = ["Enzo Poggio <poggio.enzo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "caligram_express"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.0.76"
+drawsvg = "^2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
