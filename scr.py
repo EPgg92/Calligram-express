@@ -51,6 +51,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     text = args.TEXT.read()
+    text = text.replace("\n", " ")
 
     # read the input image
     img = cv2.imread(args.IMAGE.name)
