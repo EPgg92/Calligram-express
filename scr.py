@@ -26,7 +26,6 @@ def click_event(event, x, y, flags, params):
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser(
         prog="caligram_express",
         description="Make a caligram given a text and an image.",
