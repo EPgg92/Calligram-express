@@ -4,7 +4,7 @@ import argparse
 
 # import the required library
 import cv2
-import drawSvg as draw
+import drawsvg as draw
 
 # define a function to display the coordinates of
 # of the points clicked on the image
@@ -81,5 +81,5 @@ if __name__ == "__main__":
     d.append(draw.Text(text, 30, path=p, text_anchor="start", valign="middle"))
 
     # d.append(p)
-    d.saveSvg(f"{args.output}.svg")
-    d.savePng(f"{args.output}.png")
+    d.save_svg(f"{args.output}.svg")
+    d.save_png(f"{args.output}.png")
