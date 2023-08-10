@@ -132,3 +132,5 @@ dmypy.json
 
 data/img
 data/text
+example.png
+example.svg
