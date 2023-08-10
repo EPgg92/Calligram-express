@@ -18,7 +18,7 @@ poetry install
 ```sh
 poetry shell # lauch the env to use poetry env dependency
 
-./caligram_express/scr.py $IMAGE_PATH $TEXT_PATH -o caligram1 # create ./caligram1.png and ./caligram1.svg
+poetry run ./caligram_express/scr.py $IMAGE_PATH $TEXT_PATH -o caligram1 # create ./caligram1.png and ./caligram1.svg
 ```
 
 ```txt
